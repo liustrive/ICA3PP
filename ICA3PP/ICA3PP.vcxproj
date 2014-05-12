@@ -60,6 +60,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cluster.h" />
+    <ClInclude Include="comparator.h" />
+    <ClInclude Include="confloader.h" />
+    <ClInclude Include="dataloader.h" />
+    <ClInclude Include="job.h" />
+    <ClInclude Include="jobtracker.h" />
+    <ClInclude Include="machine.h" />
+    <ClInclude Include="resultcollector.h" />
+    <ClInclude Include="scheduler.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dataloader.cpp" />
+    <ClCompile Include="fifo_scheduler.cpp" />
+    <ClCompile Include="job.cpp" />
+    <ClCompile Include="jobtracker.cpp" />
+    <ClCompile Include="machine.cpp" />
+    <ClCompile Include="min_max_scheduler.cpp" />
+    <ClCompile Include="resultcollector.cpp" />
+    <ClCompile Include="min_min_scheduler.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
