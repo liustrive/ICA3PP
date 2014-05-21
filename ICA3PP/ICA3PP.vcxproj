@@ -62,6 +62,7 @@
   <ItemGroup>
     <ClInclude Include="cluster.h" />
     <ClInclude Include="comparator.h" />
+    <ClInclude Include="conf.h" />
     <ClInclude Include="confloader.h" />
     <ClInclude Include="dataloader.h" />
     <ClInclude Include="job.h" />

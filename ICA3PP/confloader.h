@@ -12,6 +12,8 @@ class confloader{
 private:
 	fstream conffile;
 public:
+	confloader(){
+	}
 	confloader(string file){
 		conffile.open(file);
 	}
